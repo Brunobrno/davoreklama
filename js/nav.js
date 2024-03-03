@@ -6,4 +6,9 @@ $(document).ready(function(){
         
         console.log("Button clicked!");
     });
+    $("#drop-act").click(function(){
+        // Your code to be executed when the button is clicked
+        $(".dropdown-content").toggleClass("dropdown-active");
+        console.log("Button clicked!");
+    });
 });

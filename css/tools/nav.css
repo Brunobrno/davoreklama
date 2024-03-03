@@ -1,7 +1,12 @@
 nav{
+    color: white;
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+nav a{
+    color: white;
+    text-decoration: none;
 }
 .nav-logo{
     position: relative;
@@ -29,9 +34,52 @@ nav{
     font-size: 2em;
 }
 .nav-links{
-    height: 0;
-    transition: transform 0.3s ease;
+    -webkit-transition: max-height 1s; 
+    -moz-transition: max-height 1s; 
+    -ms-transition: max-height 1s; 
+    -o-transition: max-height 1s; 
+    transition: max-height 1s;
+    overflow: hidden;
+
+    max-height: 0;
 }
 .nav-links-expanded{
-    height: fit-content;
+    max-height: 100em;
+}
+.nav-items{
+    display: block;
+    height: 3em;
+    text-align: center;
+
+    line-height: 3em;
+
+    font-size: 2em;
+    background-color: #212121;
+
+    border-color: white;
+    border-style: solid;
+    border-top-width: 0.05em;
+}
+.nav-items:hover{
+    background-color: red;
+    max-height: 20em;
+}
+.dropdown-content{
+    width: 80%;
+    margin-right: auto;
+
+    -webkit-transition: max-height 1s; 
+    -moz-transition: max-height 1s; 
+    -ms-transition: max-height 1s; 
+    -o-transition: max-height 1s; 
+    transition: max-height 1s;  
+    overflow: hidden;
+    max-height: 0;
+
+    border-color: white;
+    border-style: solid;
+    border-right-width: 0.2em;
+}
+.dropdown-active{
+    max-height: 40em;
 }
