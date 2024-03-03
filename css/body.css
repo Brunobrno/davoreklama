@@ -1,0 +1,29 @@
+html, body{
+    background-color: #212121;
+    width: 100%;
+
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.carousel-cover-skew{
+    height: 10em;
+    background-color: #212121;
+}
+.carousel-cover-skew-top{
+    position: relative;
+    z-index: 1;
+    bottom: -3em;
+
+    transform: skewY(-2deg);
+    -webkit-transform: skewY(-2deg);
+}
+.carousel-cover-skew-bottom{
+    position: relative;
+    z-index: 1;
+    bottom: 3em;
+
+    transform: skewY(6deg);
+    -webkit-transform: skewY(6deg);
+}

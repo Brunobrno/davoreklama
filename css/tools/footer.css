@@ -1,0 +1,16 @@
+footer{
+    background-color: #A4A4A4;
+
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+footer a{
+    color: black;
+}
+
+.iframe-map{
+    width: 100%;
+}
