@@ -1,8 +1,8 @@
-<link rel="stylesheet" type="text/css" href="css/reset.css">
-<link rel="stylesheet" type="text/css" href="css/body.css">
+<link rel="stylesheet" type="text/css" href="/css/reset.css">
+<link rel="stylesheet" type="text/css" href="/css/body.css">
 
-<link rel="stylesheet" type="text/css" href="css/tools/nav.css">
-<link rel="stylesheet" type="text/css" href="css/tools/footer.css">
+<link rel="stylesheet" type="text/css" href="/css/tools/nav.css">
+<link rel="stylesheet" type="text/css" href="/css/tools/footer.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

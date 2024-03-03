@@ -1,10 +1,16 @@
-html, body{
+body{
     background-color: #212121;
     width: 100%;
 
     font-family: "Anta", sans-serif;
     font-weight: 400;
     font-style: normal;
+
+    font-size: 1.5em;
+}
+
+h1{
+    font-size: 2em;
 }
 
 .carousel-cover-skew{
@@ -14,7 +20,7 @@ html, body{
 .carousel-cover-skew-top{
     position: relative;
     z-index: 1;
-    bottom: -3em;
+    bottom: -4em;
 
     transform: skewY(-2deg);
     -webkit-transform: skewY(-2deg);
@@ -22,8 +28,8 @@ html, body{
 .carousel-cover-skew-bottom{
     position: relative;
     z-index: 1;
-    bottom: 3em;
+    bottom: 4em;
 
-    transform: skewY(6deg);
-    -webkit-transform: skewY(6deg);
+    transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
 }

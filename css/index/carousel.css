@@ -1,18 +1,12 @@
 .carousel{
-    height: 400px;
+    height: 20em;
     width: 100%;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 1em;
     overflow-x: hidden;
     position: relative;
     display: flex;
     justify-content: flex-start;
 }
-
-h1{
-    color: #333
-}
-
 .carousel-inner{
     height: 100%;
     /* min-width: 400%; */
@@ -34,7 +28,9 @@ h1{
 }
 
 .carousel-item h1{
-    
+    position: relative;
+    color: white;
+    bottom: 1.5em;
 }
 
 .carousel-controls .prev{

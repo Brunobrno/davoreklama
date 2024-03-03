@@ -9,7 +9,7 @@
     // Get the requested URL path
     $requestPath = $_SERVER['REQUEST_URI'];
 
-    $index_css = ['css/index/index.css', 'css/index/carousel.css', 'css/index/contact.css'];
+    $index_css = ['css/index/index.css', 'css/index/carousel.css', 'css/index/contact.css', 'css/index/products.css'];
     
     // Define routes
     $routes = [
@@ -53,14 +53,15 @@
     <?php include "tools/nav.php"; ?>
     <main>
         <!-- Default content when no specific template is included -->
-        <div class="carousel-cover-skew carousel-cover-skew-top"></div>
+        <!--<div class="carousel-cover-skew carousel-cover-skew-top"></div>-->
         <?php include "tools/index/carousel.php"; ?>
         <div class="carousel-cover-skew carousel-cover-skew-bottom"></div>
+        <?php include "tools/index/products.php";?>
         <?php include "tools/contact.php";?>
         <?php include "tools/email-me.php";?>
         
     </main>
-    <?php include "tools/footer.php"; ?>
     <?php include "tools/map.php"; ?>
+    <?php include "tools/footer.php"; ?>
 </body>
 </html>
