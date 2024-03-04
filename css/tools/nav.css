@@ -21,15 +21,13 @@ nav a{
     position: absolute;
     right: 0;
 
-    border: black;
     border-radius: 0.25em;
-    border-style: solid;
 
     color: white;
 
-    height: 1.5em;
-    width: 1.5em;
-    background-color: inherit;
+    height: 1.6em;
+    width: 1.6em;
+    background-color: #212121;
 
     font-size: 2em;
 }
