@@ -57,7 +57,9 @@
         <?php include "tools/index/carousel.php"; ?>
         <div class="carousel-cover-skew carousel-cover-skew-bottom"></div>
         <?php include "tools/index/products.php";?>
+        <div class="carousel-cover-skew carousel-cover-skew-top"></div>
         <?php include "tools/contact.php";?>
+        <div class="carousel-cover-skew carousel-cover-skew-bottom"></div>
         <?php include "tools/email-me.php";?>
         
     </main>
