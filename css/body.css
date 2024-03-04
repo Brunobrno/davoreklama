@@ -2,8 +2,9 @@ body{
     background-color: white;
     width: 100%;
 
-    font-family: "Anta", sans-serif;
-    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
     font-style: normal;
 
     font-size: 1.5em;
@@ -15,7 +16,7 @@ h1{
 
 .carousel-cover-skew{
     height: 10em;
-    background-color: #212121;
+    background-color: white;
 }
 .carousel-cover-skew-top{
     position: relative;

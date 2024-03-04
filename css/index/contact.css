@@ -7,3 +7,10 @@
     padding-top: 6em;
     padding-bottom: 6em;
 }
+.contacts a{
+    color: white;
+}
+.contacts br{
+    display: block;
+    height: 1.2em;
+}

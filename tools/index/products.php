@@ -1,7 +1,4 @@
 <article class="products" >
-    <header>
-        <h1>Naše produkty</h1>
-    </header>
     <div class="products-container">
         <section class="products-item">
             <img class="products-img" src="/img/other/one-to-one.png" alt="">

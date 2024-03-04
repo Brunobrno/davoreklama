@@ -1,7 +1,7 @@
 .products{
     position: relative;
     z-index: 2;
-    top: -9em;
+    top: -10em;
 
     width: 100%;
     display: flex;
@@ -34,6 +34,7 @@
     border-radius: 2em;
 
     transition: transform 0.3s ease; /* Smooth transition on transform */
+    box-shadow: 0 0.5em 0.5em 0 rgba(0,0,0,0.2), 0 0.25em 0.25em 0 rgba(0,0,0,0.19) !important;
 }
 .products-item:hover{
     transform: scale(1.1);
