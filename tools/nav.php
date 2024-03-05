@@ -1,6 +1,6 @@
 <nav>
     <div class="nav-logo">
-        <img src="http://www.davo1.cz/front/img/davo1.png" alt="logo">
+        <img src="/img/other/DAVO_logo_2024_bile.png" alt="logo">
         <button id="nav-buton-js" type="button">&#8801;<!--&equiv;--></button>
     </div>
     
