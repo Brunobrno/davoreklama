@@ -9,7 +9,7 @@
     // Get the requested URL path
     $requestPath = $_SERVER['REQUEST_URI'];
 
-    $index_css = ['css/index/index.css', 'css/index/carousel.css', 'css/index/contact.css', 'css/index/products.css', 'css/index/instagram.css'];
+    $index_css = ['css/index/index.css', 'css/index/carousel.css', 'css/index/contact.css', 'css/index/products.css', 'css/index/instagram.css', 'css/tools/email-me.css'];
     
     // Define routes
     $routes = [
@@ -57,14 +57,14 @@
         <?php include "tools/index/carousel.php"; ?>
         <div class="carousel-cover-skew carousel-cover-skew-bottom"></div>
         <?php include "tools/index/products.php";?>
-        <div class="carousel-cover-skew carousel-cover-skew-top"></div>
-        <?php include "tools/contact.php";?>
-        <div class="carousel-cover-skew carousel-cover-skew-bottom"></div>
+        
         <?php include "tools/instagram-posts.php";?>
+
         <?php include "tools/email-me.php";?>
+        
+        <?php include "tools/contact.php";?>
         
     </main>
     <?php include "tools/map.php"; ?>
-    <?php include "tools/footer.php"; ?>
 </body>
 </html>

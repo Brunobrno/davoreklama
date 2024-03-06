@@ -13,6 +13,9 @@ body{
 h1{
     font-size: 2em;
 }
+b{
+    font-weight: bold;
+}
 
 .carousel-cover-skew{
     height: 10em;

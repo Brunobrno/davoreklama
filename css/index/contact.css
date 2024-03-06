@@ -1,11 +1,14 @@
 .contacts{
-    background-color: #212121;
+    width: 100%;
 
+    background-color: #212121;
     color: white;
 
     text-align: center;
+
     padding-top: 6em;
-    padding-bottom: 6em;
+    padding-bottom: 1em;
+    margin: auto;
 }
 .contacts a{
     color: white;

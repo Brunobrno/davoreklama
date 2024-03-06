@@ -1,0 +1,60 @@
+input[type=text],
+input[type=email], 
+textarea {
+    width: 100%;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+    font-size: 1em;
+    line-height: 1em;
+
+    margin: 0.5em;
+    margin-left: 0;
+    padding: 0.5em;
+    min-height: 0.75em;
+
+    border: unset;
+    border-radius: 0.2em;
+
+    outline-color: rgb(84 105 212 / 0.5);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+.email-me label{
+    display: block;
+    padding: 0.5em;
+}
+
+.email-me-form{
+    margin: auto;
+    width: 80%;
+}
+
+
+.email-me-container{
+    font-size: 2em;
+    padding: 1em;
+    padding-top: 2em;
+    background-color: #212121;
+    color: white;
+}
+.email-me-container header{
+    text-align: center;
+}
+.email-me hr{
+    border-color: gold;
+    height: 0;
+    margin-bottom: 2em;
+}
+.email-me-form button{
+    font-size: 0.5em;
+
+    padding: 1em;
+
+    border-radius: 0.5em;
+    border-width: 0;
+    background-color: goldenrod;
+}
