@@ -6,7 +6,7 @@
 
     text-align: center;
 
-    padding-top: 6em;
+    padding-top: 1em;
     padding-bottom: 1em;
     margin: auto;
 }
@@ -16,4 +16,8 @@
 .contacts br{
     display: block;
     height: 1.2em;
+}
+.contact-format-container{
+    margin: auto;
+    width: 80%;
 }

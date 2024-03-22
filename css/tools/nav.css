@@ -59,7 +59,7 @@ nav a{
     border-top-width: 0.05em;
 }
 .nav-items:hover{
-    background-color: red;
+    background-color: #c9ab5f;
     max-height: 20em;
 }
 .dropdown-content{

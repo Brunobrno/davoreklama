@@ -19,6 +19,7 @@ b{
 
 .carousel-cover-skew{
     height: 10em;
+    
     background-color: white;
 }
 .carousel-cover-skew-top{
@@ -33,6 +34,7 @@ b{
     position: relative;
     z-index: 1;
     bottom: 4em;
+    margin-bottom: -9em;
 
     transform: skewY(-3deg);
     -webkit-transform: skewY(-3deg);

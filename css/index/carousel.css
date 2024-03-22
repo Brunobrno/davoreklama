@@ -34,8 +34,8 @@
 }
 .carousel-controls .prev{
     display: inline-block;
-    height: 1.5em;
-    width: 32px;
+    height: 3em;
+    width: 3em;
     position: absolute;
     left: 12px;
     top: 50%;
@@ -50,8 +50,8 @@
 
 .carousel-controls .next{
     display: inline-block;
-    height: 1.5em;
-    width: 32px;
+    height: 3em;
+    width: 3em;
     position: absolute;
     right: 12px;
     top: 50%;

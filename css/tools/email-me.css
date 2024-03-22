@@ -3,6 +3,8 @@ input[type=email],
 textarea {
     width: 100%;
 
+    box-sizing: border-box;
+
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -11,7 +13,8 @@ textarea {
     font-size: 1em;
     line-height: 1em;
 
-    margin: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
     margin-left: 0;
     padding: 0.5em;
     min-height: 0.75em;
@@ -36,23 +39,25 @@ textarea {
 
 .email-me-container{
     font-size: 2em;
-    padding: 1em;
-    padding-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
     background-color: #212121;
     color: white;
 }
 .email-me-container header{
+    font-size: 1.2em;
     text-align: center;
 }
 .email-me hr{
     border-color: gold;
     height: 0;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 .email-me-form button{
-    font-size: 0.5em;
+    font-size: 1em;
 
-    padding: 1em;
+    padding: 0.8em;
 
     border-radius: 0.5em;
     border-width: 0;

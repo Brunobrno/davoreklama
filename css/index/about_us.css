@@ -1,0 +1,30 @@
+.about-us{
+    width: 100%;
+    position: relative;
+    z-index: 999;
+}
+.about-us-big{
+    display: none;
+}
+.about-us-small{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.about-us-small header{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+.about-us-small header hr{
+    background-color: gold;
+}
+
+.about-us-small main{
+    margin: auto;
+    width: 80%; 
+}
+.about-us-small main p{
+    text-align: center;
+    margin: 1em;
+}
