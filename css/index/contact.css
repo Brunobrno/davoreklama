@@ -21,3 +21,12 @@
     margin: auto;
     width: 80%;
 }
+
+@media screen and (min-width: 900px){
+    .contacts{
+        font-size: 0.9em;
+    }
+    .contact-format-container{
+        width: 70%;
+    }
+}

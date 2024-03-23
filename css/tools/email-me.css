@@ -63,3 +63,12 @@ textarea {
     border-width: 0;
     background-color: goldenrod;
 }
+
+@media screen and (min-width: 900px){
+    .email-me-form{
+        width: 50%;
+    }
+    .email-me-container{
+        font-size: 1em;
+    }
+}

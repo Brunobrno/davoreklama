@@ -55,5 +55,6 @@
 @media screen and (min-width: 900px){
     .products-container{
         grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2em;
     }
 }
