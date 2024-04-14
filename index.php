@@ -9,7 +9,7 @@
     // Get the requested URL path
     $requestPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
-    $index_css = ['css/index/index.css', 'css/index/about_us.css', 'css/index/carousel.css', 'css/index/contact.css', 'css/index/products.css', 'css/index/instagram.css', 'css/tools/email-me.css'];
+    $index_css = ['css/index/index.css', 'css/index/about_us.css', 'css/index/carousel.css', 'css/index/contact.css', 'css/index/products.css', 'css/index/instagram.css','css/articles/other/reference.css' , 'css/tools/email-me.css'];
     
     // Define routes
     $routes = [

@@ -8,4 +8,5 @@
 
 <?php include "tools/instagram-posts.php";?>
 
+<?php include "articles/other/reference.php";?>
 <?php include "tools/email-me.php";?>

@@ -9,3 +9,5 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script src="https://kit.fontawesome.com/e5347c4a92.js" crossorigin="anonymous"></script>

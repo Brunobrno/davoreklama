@@ -52,7 +52,6 @@ nav a{
     line-height: 3em;
 
     font-size: 2em;
-    background-color: #212121;
 
     border-color: white;
     border-style: solid;
@@ -62,8 +61,12 @@ nav a{
     background-color: #c9ab5f;
     max-height: 20em;
 }
+/*#drop-act:hover{
+    color: black;
+}*/
+
 .dropdown-content{
-    width: 80%;
+    width: 100%;
     margin-right: auto;
 
     -webkit-transition: max-height 1s; 
@@ -74,9 +77,11 @@ nav a{
     overflow: hidden;
     max-height: 0;
 
-    border-color: white;
+    background-color: #847546;
+
+    /*border-color: white;
     border-style: solid;
-    border-right-width: 0.2em;
+    border-right-width: 0.2em;*/
 }
 .dropdown-active{
     max-height: 40em;
