@@ -104,3 +104,14 @@
 .carousel-item-fourth{
     background-image: url("http://www.davo1.cz/public/files/pages/original/potisk-textilu12.jpg");
 }
+
+
+@media only screen and (min-width: 991px){
+    .prev, .next{
+        height: 1em !important;
+        width: 1em !important;
+    }
+    .carousel-indicators{
+        bottom: 2em !important;
+    }
+}

@@ -1,3 +1,30 @@
+
+.about-us::before{
+    content: '';
+    display: block;
+    position: relative;
+    z-index: -1;
+    bottom: 0;
+    height: 23em;
+    margin-bottom: -18em;
+    transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    /* height: 10em; */
+    background-color: white;
+}
+.about-us::after{
+    content: '';
+    display: block;
+    position: relative;
+    z-index: -1;
+    bottom: 0;
+    height: 23em;
+    margin-top: -18em;
+    transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    /* height: 10em; */
+    background-color: white;
+}
 .about-us{
     width: 100%;
     position: relative;
