@@ -20,8 +20,8 @@
         
         <a class="nav-items" href="#">Reference</a>
         <a class="nav-items" href="#">Servis</a>
-        <a class="nav-items" href="#">INSTA</a>
-        <a class="nav-items" href="#">WHATSAPP</a>
+        <a class="nav-items" href="#"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+        <a class="nav-items" href="#"><i class="fa-brands fa-whatsapp"></i></a>
     </div>
 </nav>
 <nav class="desktop-nav">
@@ -44,8 +44,8 @@
         
         <a class="nav-items" href="#">Reference</a>
         <a class="nav-items" href="#">Servis</a>
-        <a class="nav-items" href="#">INSTA</a>
-        <a class="nav-items" href="#">WHATSAPP</a>
+        <a class="nav-items" href="#"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+        <a class="nav-items" href="#"><i class="fa-brands fa-whatsapp"></i></a>
     </div>
 </nav>
 <script src="/js/nav-mobile.js"></script>

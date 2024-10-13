@@ -1,4 +1,7 @@
 .products{
+
+    display: none !important;
+
     position: relative;
     z-index: 2;
 

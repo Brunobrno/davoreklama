@@ -6,11 +6,16 @@
     align-items: center;
     justify-content: space-evenly;
 }
+.reference h1{
+    font-size: 1.5em;
+}
 .reference .desktop-img{
-    margin-top: -5em;
+    width: 80%;
+    margin: 1em;
+    
 }
 .reference .mobile-img{
-    margin-top: -8em;
+    margin: 1em;
 }
 
 @media screen and (min-width: 1000px){

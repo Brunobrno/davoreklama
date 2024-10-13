@@ -16,8 +16,8 @@ nav a{
     width: 100%;
 }
 .nav-logo img{
-    margin: 0.5em;
-    height: 3em;
+    margin: 1em;
+    height: 2.5em;
 }
 .mobile-nav .nav-logo button{
     top: 0;
@@ -97,9 +97,6 @@ nav a{
     display: flex;
     flex-direction: row;
 }
-.desktop-nav a{
-    font-size: 2ch;
-}
 
 .desktop-nav .nav-logo{
     width: min-content;
@@ -135,9 +132,14 @@ nav a{
     .mobile-nav{
         display: none;
     }
+    .nav-logo img {
+        margin: 1em;
+        height: 1.8em;
+    }
 }
 @media screen and (max-width: 1000px){
     .desktop-nav{
         display: none;
     }
+    
 }

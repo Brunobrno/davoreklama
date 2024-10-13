@@ -33,20 +33,21 @@ textarea {
 
 .email-me-form{
     margin: auto;
-    width: 80%;
+    width: 35%;
 }
 
 
 .email-me-container{
-    font-size: 2em;
     padding-top: 1em;
     padding-bottom: 1em;
 
     background-color: #212121;
     color: white;
+
+    font-size: 0.95em;
 }
 .email-me-container header{
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-align: center;
 }
 .email-me hr{
@@ -64,11 +65,8 @@ textarea {
     background-color: goldenrod;
 }
 
-@media screen and (min-width: 900px){
+@media screen and (max-width: 910px){
     .email-me-form{
-        width: 35%;
-    }
-    .email-me-container{
-        font-size: 0.95em;
+        width: 60%;
     }
 }
