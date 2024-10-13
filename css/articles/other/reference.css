@@ -1,11 +1,25 @@
-.reference-container-section{  
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-}
-.reference-section-item{
+.reference{
+    margin-top: 4em;
+    color: white;
     display: flex;
-    
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.reference .desktop-img{
+    margin-top: -5em;
+}
+.reference .mobile-img{
+    margin-top: -8em;
+}
+
+@media screen and (min-width: 1000px){
+    .mobile-img{
+        display: none;
+    }
+}
+@media screen and (max-width: 1000px){
+    .desktop-img{
+        display: none;
+    }
 }

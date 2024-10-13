@@ -66,9 +66,9 @@ textarea {
 
 @media screen and (min-width: 900px){
     .email-me-form{
-        width: 50%;
+        width: 35%;
     }
     .email-me-container{
-        font-size: 1em;
+        font-size: 0.95em;
     }
 }
