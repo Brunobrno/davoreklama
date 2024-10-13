@@ -93,16 +93,22 @@
 
 
 .carousel-item-first{
-    background-image: url("http://www.davo1.cz/public/files/pages/original/svetelna-reklama213.jpg");
+    background-image: url("/img/carousel/DAVO_Web_slide_1.png");
 }
 .carousel-item-second{
-    background-image: url("http://www.davo1.cz/public/files/pages/original/design18.jpg");
+    background-image: url("/img/carousel/DAVO_Web_slide_2.png");
 }
 .carousel-item-third{
-    background-image: url("http://www.davo1.cz/public/files/pages/original/tisk08.jpg");
+    background-image: url("/img/carousel/DAVO_Web_slide_3.png");
 }
 .carousel-item-fourth{
-    background-image: url("http://www.davo1.cz/public/files/pages/original/potisk-textilu12.jpg");
+    background-image: url("/img/carousel/DAVO_Web_slide_4.png");
+}
+.carousel-item-fifth{
+    background-image: url("/img/carousel/DAVO_Web_slide_5.png");
+}
+.carousel-item-sixth{
+    background-image: url("/img/carousel/DAVO_Web_slide_6.png");
 }
 
 
@@ -110,8 +116,5 @@
     .prev, .next{
         height: 1em !important;
         width: 1em !important;
-    }
-    .carousel-indicators{
-        bottom: 2em !important;
     }
 }

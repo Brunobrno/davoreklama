@@ -20,12 +20,13 @@
     bottom: 0;
     height: 23em;
     margin-top: -18em;
-    transform: skewY(-3deg);
-    -webkit-transform: skewY(-3deg);
+    transform: skewY(-2deg);
+    -webkit-transform: skewY(-2deg);
     /* height: 10em; */
     background-color: white;
 }
 .about-us{
+    margin-top: -2.5em;
     width: 100%;
     position: relative;
     z-index: 999;

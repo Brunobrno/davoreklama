@@ -122,11 +122,21 @@ nav a{
     display: flex;
     flex-direction: column;
     position: absolute;
+
+    z-index: 5;
+    background-color: #212121;
+    margin-top: 1.45em;
+    margin-left: -2em;
 }
 
 .desktop-nav .dropdown:hover .dropdown-content{
     max-height: 20em;
 }
+.desktop-nav .dropdown .dropdown-content .nav-items{
+    padding: 1em;
+    background-color: #212121;
+}   
+
 
 @media screen and (min-width: 1000px){
     .mobile-nav{

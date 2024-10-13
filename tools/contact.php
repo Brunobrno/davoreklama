@@ -10,7 +10,7 @@
         <br>
         <a href="tel:+420603234488">+420 603 23 44 88</a>
         <br>
-        <a href="#instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.instagram.com/davo1.cz/"><i class="fa-brands fa-instagram"></i></a>
         <br>
         <br>
         <address>Davo reklama s.r.o., Škroupova 10, Ostrava, <br>702 00 Czech Republic</address>
