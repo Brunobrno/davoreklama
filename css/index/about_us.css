@@ -5,8 +5,8 @@
     position: relative;
     z-index: -1;
     bottom: 0;
-    height: 23em;
-    margin-bottom: -18em;
+    height: 40em;
+    margin-bottom: -36em;
     transform: skewY(-3deg);
     -webkit-transform: skewY(-3deg);
     /* height: 10em; */
@@ -18,8 +18,8 @@
     position: relative;
     z-index: -1;
     bottom: 0;
-    height: 23em;
-    margin-top: -18em;
+    height: 40em;
+    margin-top: -36em;
     transform: skewY(-2deg);
     -webkit-transform: skewY(-2deg);
     /* height: 10em; */
@@ -52,6 +52,10 @@
 .about-us-small main{
     margin: auto;
     width: 80%; 
+}
+.about-us-small h2{
+    font-size: 1.2em;
+    text-align: center;
 }
 .about-us-small main p{
     text-align: center;

@@ -15,6 +15,7 @@ body{
 }
 .contacts a{
     color: white;
+    text-decoration: none;
 }
 .contacts br{
     content: " ";
