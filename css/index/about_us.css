@@ -46,7 +46,10 @@
     width: 80%;
 }
 .about-us-small header hr{
-    background-color: gold !important;
+    border-color: gold !important;
+    height: 0;
+    background-color: gold;
+    border-style: solid;
 }
 
 .about-us-small main{
