@@ -9,7 +9,8 @@
     // Get the requested URL path
     $requestPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
-    $index_css = ['css/index/index.css', 'css/index/about_us.css', 'css/index/carousel.css', 'css/index/contact.css', 'css/index/products.css', 'css/index/instagram.css','css/articles/other/reference.css' , 'css/tools/email-me.css'];
+    $index_css = ['css/index/index.css', 'css/index/about_us.css', 'css/index/carousel.css', 'css/index/contact.css', 'css/index/products.css', 'css/index/instagram.css','css/articles/other/reference.css' , 'css/tools/email-me.css', 'css/index/reference.css'];
+
     
     // Define routes
     $routes = [
@@ -19,7 +20,7 @@
     
         '/contacts' => ['template' => 'contacts.php','css' => ['/css/articles/contacts.css', '/css/articles/article-base.css']],
         '/about-us' => ['template' => 'articles/other/about-us.php', 'css' => ['/css/articles/other/about-us.css', '/css/articles/article-base.css']],
-        '/reference' => ['template' => 'articles/other/reference.php', 'css' => ['/css/articles/other/reference.css', '/css/articles/article-base.css']],
+        '/reference.php' => ['template' => 'articles/other/reference.php', 'css' => ['/css/articles/other/reference.css', '/css/articles/article-base.css']],
         '/service' => ['template' => 'articles/service.php', 'css' => ['/css/articles/service.css', '/css/articles/article-base.css']],
         '/car-wrap' => ['template' => 'articles/car-wrap.php', 'css' => ['/css/articles/car-wrap.css', '/css/articles/article-base.css']],
         '/graphic-design' => ['template' => 'articles/graphic-design.php', 'css' => ['/css/articles/graphic-design.css', '/css/articles/article-base.css']],

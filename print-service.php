@@ -24,7 +24,7 @@
         '/car-wrap' => ['template' => 'articles/car-wrap.php', 'css' => ['/css/articles/car-wrap.css', '/css/articles/article-base.css']],
         '/graphic-design' => ['template' => 'articles/graphic-design.php', 'css' => ['/css/articles/graphic-design.css', '/css/articles/article-base.css']],
         '/light-ad' => ['template' => 'articles/light-advertisment.php', 'css' => ['/css/articles/light-ad.css', '/css/articles/article-base.css']],
-        '/print-service' => ['template' => 'articles/print-service.php', 'css' => ['/css/articles/print-service.css', '/css/articles/article-base.css']],
+        '/print-service.php' => ['template' => 'articles/print-service.php', 'css' => ['/css/articles/print-service.css', '/css/articles/article-base.css']],
         '/textile-print' => ['template' => 'articlestextile-print.php', 'css' => ['/css/articles/textile-print.css', '/css/articles/article-base.css']],
         '/web-design' => ['template' => 'articles/web-design.php', 'css' => ['/css/articles/web-design.css', '/css/articles/article-base.css']],
     ];

@@ -25,7 +25,7 @@
         '/graphic-design' => ['template' => 'articles/graphic-design.php', 'css' => ['/css/articles/graphic-design.css', '/css/articles/article-base.css']],
         '/light-ad' => ['template' => 'articles/light-advertisment.php', 'css' => ['/css/articles/light-ad.css', '/css/articles/article-base.css']],
         '/print-service' => ['template' => 'articles/print-service.php', 'css' => ['/css/articles/print-service.css', '/css/articles/article-base.css']],
-        '/textile-print' => ['template' => 'articlestextile-print.php', 'css' => ['/css/articles/textile-print.css', '/css/articles/article-base.css']],
+        '/textile-print.php' => ['template' => 'articlestextile-print.php', 'css' => ['/css/articles/textile-print.css', '/css/articles/article-base.css']],
         '/web-design' => ['template' => 'articles/web-design.php', 'css' => ['/css/articles/web-design.css', '/css/articles/article-base.css']],
     ];
     

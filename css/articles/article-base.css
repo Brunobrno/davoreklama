@@ -6,6 +6,6 @@ article header{
     margin-bottom: 2em;
     line-height: 2em;
 }
-article p{
+article p, article section p{
     line-height: 1.5em;
 }

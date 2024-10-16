@@ -1,5 +1,5 @@
 nav{
-    background-color: #212121;
+    background-color: #0f0f10;
     color: white;
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@ nav a{
     color: white;
     height: auto;
     width: 1.6em;
-    background-color: #212121;
+    background-color: #edbf63;
     font-size: 3em;
 }
 .mobile-nav .nav-links{

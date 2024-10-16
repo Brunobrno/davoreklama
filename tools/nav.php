@@ -5,21 +5,21 @@
     </div>
     
     <div class="nav-links">
-        <a class="nav-items" href="/about-us">O nás</a>
+        <a class="nav-items" href="/about-us.php">O nás</a>
         <div class="dropdown" >
             <div id="drop-act" class="nav-items">Naše služby</div>
             <div class="dropdown-content">
-                <a class="nav-items" href="/graphic-design">Grafický design</a>
-                <a class="nav-items" href="/light-ad">Světelná reklama</a>
-                <a class="nav-items" href="/car-wrap">Polepy vozidel</a>
-                <a class="nav-items" href="/print-service">Tisk servis</a>
-                <a class="nav-items" href="/web-design">Web design</a>
-                <a class="nav-items" href="/textile-print">Postisk textilu</a>
+                <a class="nav-items" href="/graphic-design.php">Grafický design</a>
+                <a class="nav-items" href="/light-ad.php">Světelná reklama</a>
+                <a class="nav-items" href="/car-wrap.php">Polepy vozidel</a>
+                <a class="nav-items" href="/print-service.php">Tisk servis</a>
+                <a class="nav-items" href="/web-design.php">Web design</a>
+                <a class="nav-items" href="/textile-print.php">Postisk textilu</a>
             </div>
         </div>
         
-        <a class="nav-items" href="/reference">Reference</a>
-        <a class="nav-items" href="/service">Servis</a>
+        <a class="nav-items" href="/reference.php">Reference</a>
+        <a class="nav-items" href="/service.php">Servis</a>
         <a class="nav-items" href="https://www.instagram.com/davo1.cz/"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
         <a class="nav-items" href="#"><i class="fa-brands fa-whatsapp"></i></a>
     </div>

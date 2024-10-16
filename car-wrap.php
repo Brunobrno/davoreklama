@@ -21,7 +21,7 @@
         '/about-us' => ['template' => 'articles/other/about-us.php', 'css' => ['/css/articles/other/about-us.css', '/css/articles/article-base.css']],
         '/reference' => ['template' => 'articles/other/reference.php', 'css' => ['/css/articles/other/reference.css', '/css/articles/article-base.css']],
         '/service' => ['template' => 'articles/service.php', 'css' => ['/css/articles/service.css', '/css/articles/article-base.css']],
-        '/car-wrap' => ['template' => 'articles/car-wrap.php', 'css' => ['/css/articles/car-wrap.css', '/css/articles/article-base.css']],
+        '/car-wrap.php' => ['template' => 'articles/car-wrap.php', 'css' => ['/css/articles/car-wrap.css', '/css/articles/article-base.css']],
         '/graphic-design' => ['template' => 'articles/graphic-design.php', 'css' => ['/css/articles/graphic-design.css', '/css/articles/article-base.css']],
         '/light-ad' => ['template' => 'articles/light-advertisment.php', 'css' => ['/css/articles/light-ad.css', '/css/articles/article-base.css']],
         '/print-service' => ['template' => 'articles/print-service.php', 'css' => ['/css/articles/print-service.css', '/css/articles/article-base.css']],
